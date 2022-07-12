@@ -46,7 +46,7 @@ a {
   list-style-type: none;
 }
 
-.date{
+.date {
   display: flex;
   justify-content: flex-end;
   margin: 2rem 6rem 1rem 1rem;
@@ -117,11 +117,11 @@ form button {
   gap: 2rem;
 }
 
-.ctt p{
+.ctt p {
   font-size: large;
 }
 
-.ctt ul li{
+.ctt ul li {
   margin-bottom: 1rem;
   font-size: large;
 }

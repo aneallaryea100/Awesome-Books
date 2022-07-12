@@ -8,7 +8,6 @@ In this project, I will restructure the Awesome book app in to modules using ES6
 - HTML
 - CSS
 - JAVASCRIPT
-- lUXON
 - VSCODE
 
 ## Live Demo

@@ -1,5 +1,7 @@
-# Awesome-Books
-
+## Awesome-Books ES6
+Hello everyone, let implement ES6 syntax and modules in the AWESOME BOOK APP and use const and let efficiently.
+# DESCRIPTION
+In this project, I will restructure the Awesome book app in to modules using ES6 syntax. The goal here is to be able to implement ES6 syntax and organise modules in a project efficiently. 
 
 ## Built With
 
@@ -16,7 +18,8 @@
 * Modern Browser.Example: Firefox, chrome.
 * Windows 7 and above, MacOs, linux and android.
 # SET UP
-* Download the folder and click on index.html
+* Clone this repo : https://github.com/aneallaryea100/Awesome-Books.git
+* 
 
 # AUTHOR
 👤 Aneal Laryea
@@ -36,9 +39,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- This project was inspired from the original project of Cindy Shin.
-- The link to the project (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+- This is a microverse project to help students implement ES6 syntax and organise their code into modules.
+
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is MIT.md licensed.

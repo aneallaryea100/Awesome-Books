@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.hide {
+  display: none;
+}
+
+.head {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: salmon;
+  color: aliceblue;
+}
+
+.nacs {
+  border-right: 0.2rem solid aliceblue;
+  border-left: 0.2rem solid aliceblue;
+  padding: 0 1rem;
+}
+
+.booklii {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+}
+
+.navUL {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: aliceblue;
+}
+
+.liNav {
+  margin: 0 1rem;
+  list-style-type: none;
+}
+
+.date {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2rem 6rem 1rem 1rem;
+}
+
+.mainbody {
+  text-align: center;
+  margin: 10% auto;
+  width: 35rem;
+  background-color: gray;
+}
+
+.mainform {
+  text-align: center;
+}
+
+.booklii:nth-child(even) {
+  background-color: gray;
+}
+
+.booklii:nth-child(odd) {
+  background-color: rgb(241, 232, 232);
+}
+
+.delete {
+  background-color: coral;
+  color: cornsilk;
+  border: 1px solid sandybrown;
+  padding: 0.2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 30rem;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+form button {
+  width: 5rem;
+  margin-left: 25rem;
+  background-color: gold;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+#add-book-section {
+  margin: 10% auto;
+}
+
+#contact-section {
+  margin: 10% auto;
+}
+
+.hold-contact {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.ctt {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.ctt p {
+  font-size: large;
+}
+
+.ctt ul li {
+  margin-bottom: 1rem;
+  font-size: large;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  background-color: salmon;
+  padding: 1rem 0;
+  color: aliceblue;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

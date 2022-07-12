@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-li {
-  list-style: none;
-}
-
 a {
   text-decoration: none;
   color: aliceblue;
@@ -47,6 +43,13 @@ a {
 
 .liNav {
   margin: 0 1rem;
+  list-style-type: none;
+}
+
+.date{
+  display: flex;
+  justify-content: flex-end;
+  margin: 2rem 6rem 1rem 1rem;
 }
 
 .mainbody {
@@ -112,6 +115,15 @@ form button {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+
+.ctt p{
+  font-size: large;
+}
+
+.ctt ul li{
+  margin-bottom: 1rem;
+  font-size: large;
 }
 
 .footer {

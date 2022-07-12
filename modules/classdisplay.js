@@ -1,4 +1,11 @@
-import StoreLocal from "./classstore";
+import StoreLocal from "./classstore.js";
+
+// Declare variables
+const sections = document.querySelectorAll('section');
+const arrSections = Array.from(sections);
+
+const links = document.querySelectorAll('.nav-a');
+const arrLinks = Array.from(links);
 export default class Page {
     static displayPage = () => {
   

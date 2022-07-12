@@ -1,6 +1,7 @@
-import Books from "./modules/classbooks";
-import Page from './modules/classdisplay';
-import StoreLocal from './modules/classstore';
+import Books from './modules/classbooks.js';
+import Page from './modules/classdisplay.js';
+import StoreLocal from './modules/classstore.js';
+import { DateTime } from './modules/luxon.js';
 
 // Declare variables
 const sections = document.querySelectorAll('section');
@@ -9,6 +10,10 @@ const arrSections = Array.from(sections);
 const links = document.querySelectorAll('.nav-a');
 const arrLinks = Array.from(links);
 
+// display date and time
+const dateTime = DateTime.now()
+const timess = dateTime.toLocaleString(DateTime.DATETIME_MED);
+document.querySelector('.date').innerHTML = timess;
 
 //event to display book
 document.addEventListener('DOMContentLoaded', Page.displayPage);

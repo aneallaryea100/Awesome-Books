@@ -1,13 +1,17 @@
 export default class StoreLocal {
     static getPage = () => {
-      let books;
-      if (localStorage.getItem('books' === null)) {
-        books = [];
-      } else {
-        books = JSON.parse(localStorage.getItem('books'));
-      }
-
+      let books = JSON.parse(localStorage.getItem('books')) || []
+      // if (localStorage.getItem('books' === null)) {
+      //   books = [];
+      // } else {
+      //   books = JSON.parse(localStorage.getItem('books'));
+      // }
       return books;
+    }
+
+    static setLocal = (book) => {
+      let varss = localStorage.setItem('books', JSON.stringify(book));
+      return varss
     }
 
     static addPage = (book) => {
@@ -15,7 +19,8 @@ export default class StoreLocal {
 
       books.push(book);
 
-      localStorage.setItem('books', JSON.stringify(books));
+      // localStorage.setItem('books', JSON.stringify(books));
+      StoreLocal.setLocal(books);
     }
 
     static removePage = (author) => {
@@ -27,6 +32,7 @@ export default class StoreLocal {
         }
       });
 
-      localStorage.setItem('books', JSON.stringify(books));
+      // localStorage.setItem('books', JSON.stringify(books));
+      StoreLocal.setLocal(books);
     }
 }

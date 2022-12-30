@@ -12,7 +12,7 @@ In this project, I will restructure the Awesome book app in to modules using ES6
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://teal-blini-0de266.netlify.app/#add-book-section)
 
 # Prerequisite
 * Modern Browser.Example: Firefox, chrome.

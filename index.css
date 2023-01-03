@@ -18,7 +18,7 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: salmon;
+  background-color: rgb(201, 36, 18);
   color: aliceblue;
 }
 
@@ -130,7 +130,7 @@ form button {
   display: flex;
   justify-content: center;
   align-content: flex-end;
-  background-color: salmon;
+  background-color: rgb(201, 36, 18);
   padding: 1rem 0;
   color: aliceblue;
   position: absolute;

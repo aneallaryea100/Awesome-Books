@@ -10,6 +10,10 @@ In this project, I will restructure the Awesome book app in to modules using ES6
 - JAVASCRIPT
 - VSCODE
 
+## Image Preview
+
+![awesome-books](./modules/images/awesome.png)
+
 ## Live Demo
 
 [Live Demo Link](https://teal-blini-0de266.netlify.app/#add-book-section)
